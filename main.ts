@@ -187,7 +187,7 @@ let moneda2 = sprites.create(img`
     . . . . . b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.moneda)
-moneda2.setPosition(352, 260)
+moneda2.setPosition(360, 260)
 let moneda3 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . 5 5 5 5 5 5 5 b . . . . 
@@ -206,7 +206,7 @@ let moneda3 = sprites.create(img`
     . . . . . b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.moneda)
-moneda3.setPosition(16, 272)
+moneda3.setPosition(8, 280)
 let moneda4 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . 5 5 5 5 5 5 5 b . . . . 
@@ -225,7 +225,7 @@ let moneda4 = sprites.create(img`
     . . . . . b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.moneda)
-moneda4.setPosition(0, 704)
+moneda4.setPosition(8, 704)
 let moneda5 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . 5 5 5 5 5 5 5 b . . . . 
@@ -244,7 +244,7 @@ let moneda5 = sprites.create(img`
     . . . . . b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.moneda)
-moneda5.setPosition(336, 560)
+moneda5.setPosition(346, 570)
 let moneda6 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . 5 5 5 5 5 5 5 b . . . . 
@@ -263,7 +263,7 @@ let moneda6 = sprites.create(img`
     . . . . . b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.moneda)
-moneda6.setPosition(352, 400)
+moneda6.setPosition(360, 390)
 let moneda7 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . 5 5 5 5 5 5 5 b . . . . 
@@ -282,7 +282,7 @@ let moneda7 = sprites.create(img`
     . . . . . b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.moneda)
-moneda7.setPosition(160, 256)
+moneda7.setPosition(170, 260)
 let moneda8 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . 5 5 5 5 5 5 5 b . . . . 
