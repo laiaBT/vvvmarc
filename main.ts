@@ -1,11 +1,19 @@
 namespace SpriteKind {
     export const moneda = SpriteKind.create()
+    export const final = SpriteKind.create()
 }
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
+    game.over(true, effects.confetti)
+})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.moneda, function (sprite, otherSprite) {
     otherSprite.destroy(effects.spray, 500)
     info.changeScoreBy(1)
     music.baDing.play()
 })
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestOpen, function (sprite, location) {
+    game.over(false, effects.dissolve)
+})
+game.splash("BENVINGUTS AL JOC DELS DESVIUS", "ES UNA MICA DIFÍCIL")
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
